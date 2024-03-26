@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+    background: whtie;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    text-align: center;
+}
+.btn {
+    color: #2C5214;
+    font-size: 16px;
+    line-height: 45px;
+    max-width: 160px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100%;
+}
+.btn-new{
+    outline: 6px inset;
+    outline-color: darkgreen;
+    transition-timing-function: ease-in;
+}
+.btn-new:hover{
+    letter-spacing: 15px;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: rgba(0,0,0,1.00);
+}
